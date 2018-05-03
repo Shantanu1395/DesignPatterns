@@ -1,1 +1,1 @@
-1.Strategy
+1.Strategy-Calulates physique based on values
