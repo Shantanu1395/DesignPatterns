@@ -9,6 +9,7 @@ package design.pattern;
  *
  * @author shantanu1395
  */
+//Volatile-Thread would not locally cache the value of the variable
 
 class Singleton{
     private static volatile Singleton i;
@@ -27,6 +28,9 @@ class Singleton{
 
 class Runner {
     public static void main(String[] args) {
-        Singleton s=Singleton.getInstance();
+        Singleton s1=Singleton.getInstance();
+        System.out.println(s1.hashCode());
+        Singleton s2=Singleton.getInstance();
+        System.out.println(s2.hashCode());
     }
 }
