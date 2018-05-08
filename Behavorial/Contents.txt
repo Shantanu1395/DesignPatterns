@@ -1,1 +1,2 @@
 1.Strategy-Calulates physique based on values
+2.Observer-Publisher  -Subscription/Broadcast scenario
