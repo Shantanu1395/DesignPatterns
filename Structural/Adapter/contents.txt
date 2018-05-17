@@ -1,0 +1,1 @@
+Contains application of adapter pattern explained with 2 hypothetical entities(Robot) which are incompatible with each other to work with each other using some adapter
