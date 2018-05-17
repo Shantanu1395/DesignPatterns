@@ -1,0 +1,1 @@
+Contains structural design patterns
